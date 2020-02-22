@@ -1,0 +1,47 @@
+﻿  stdafx.cpp
+  Arkanoid.cpp
+c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(78): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(116): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(118): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+d:\program files (x86)\visual 2017\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+  d:\program files (x86)\visual 2017\vc\tools\msvc\14.16.27023\include\vector(902): note: zobacz odwołanie do funkcji szablon; wystąpienie „void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned int,unsigned int,unsigned int&,unsigned int&>(_Alloc &,_Objty *const ,unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” jest kompilowane
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+  d:\program files (x86)\visual 2017\vc\tools\msvc\14.16.27023\include\vector(902): note: zobacz odwołanie do funkcji szablon; wystąpienie „void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned int,unsigned int,unsigned int&,unsigned int&>(_Alloc &,_Objty *const ,unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” jest kompilowane
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+  d:\program files (x86)\visual 2017\vc\tools\msvc\14.16.27023\include\vector(919): note: zobacz odwołanie do funkcji szablon; wystąpienie „void std::vector<Block,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<unsigned int,unsigned int,unsigned int&,unsigned int&>(unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” jest kompilowane
+          with
+          [
+              _Ty=Block
+          ]
+  c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(120): note: zobacz odwołanie do funkcji szablon; wystąpienie „void std::vector<Block,std::allocator<_Ty>>::emplace_back<unsigned int,unsigned int,unsigned int&,unsigned int&>(unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” jest kompilowane
+          with
+          [
+              _Ty=Block
+          ]
+d:\program files (x86)\visual 2017\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: "argument": konwersja z "_Ty" do "float", możliwa utrata danych
+          with
+          [
+              _Ty=unsigned int
+          ]
+  Ball.cpp
+  Block.cpp
+  Menu.cpp
+  Paletka.cpp
+  Generowanie kodu...
+c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(71): warning C4715: "kolizja”: niewszystkie ścieżki kodu zwracają wartość
+c:\users\marcin\desktop\arkanoid\arkanoid\arkanoid\arkanoid.cpp(42): warning C4715: "kolizja”: niewszystkie ścieżki kodu zwracają wartość
+  Arkanoid.vcxproj -> C:\Users\Marcin\Desktop\Arkanoid\Arkanoid\Debug\Arkanoid.exe
